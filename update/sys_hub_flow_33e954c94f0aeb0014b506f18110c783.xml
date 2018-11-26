@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Autoclose NeedIt Tasks that have exceeded their Overdue time as set in the x_58872_needit.autoCloseOverdue application property.</description>
+        <internal_name>autoclose_overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"06375fc1-f1e1-4cec-a738-961e47595dbb.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"},{"name":"70df8eeb-bb5e-4192-927e-3334dda41a10.table_name","label":"4.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"70df8eeb-bb5e-4192-927e-3334dda41a10.record","label":"4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"06375fc1-f1e1-4cec-a738-961e47595dbb.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"7b51bd48-e8f8-4e95-abf8-63426965e788.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"7b51bd48-e8f8-4e95-abf8-63426965e788.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"7b51bd48-e8f8-4e95-abf8-63426965e788.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"d61760a7-b748-4e93-92c6-3f7504fa2d11.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"eb08952e-f924-4ff5-b268-30c9011ce3d9.approval_state","label":"2➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"2c9210c3-fd2e-4c75-a8ac-fb5f6877a721.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"a2088633-791f-489c-bb34-d088d7d70d5f.calculated_date","label":"1➛calculated_date","reference_display":"calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"06375fc1-f1e1-4cec-a738-961e47595dbb.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Autoclose Overdue NeedIt Tasks</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 09:08:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>33e954c94f0aeb0014b506f18110c783</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Autoclose Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_33e954c94f0aeb0014b506f18110c783</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 15:01:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=33e954c94f0aeb0014b506f18110c783"/>
+</record_update>

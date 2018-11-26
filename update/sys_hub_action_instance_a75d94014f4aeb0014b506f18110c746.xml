@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Autoclose Overdue NeedIt Tasks">33e954c94f0aeb0014b506f18110c783</flow>
+        <order>4.2</order>
+        <parent_ui_id>06375fc1-f1e1-4cec-a738-961e47595dbb</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 09:23:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a75d94014f4aeb0014b506f18110c746</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a75d94014f4aeb0014b506f18110c746</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 15:01:22</sys_updated_on>
+        <ui_id>c5e84d21-197e-4c14-94db-0875af91a2af</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a75d94014f4aeb0014b506f18110c746"/>
+    <sys_element_mapping action="delete_multiple" query="id=a75d94014f4aeb0014b506f18110c746"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>a75d94014f4aeb0014b506f18110c746</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 09:23:57</sys_created_on>
+        <sys_id>2b5d94014f4aeb0014b506f18110c74b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 15:01:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{06375fc1-f1e1-4cec-a738-961e47595dbb.item.number}}  was automatically closed because its Due date of {{06375fc1-f1e1-4cec-a738-961e47595dbb.item.due_date}} was older than the autoCloseOverdue setting of {{2c9210c3-fd2e-4c75-a8ac-fb5f6877a721.property_value}} days.</value>
+    </sys_element_mapping>
+</record_update>
